@@ -15,7 +15,7 @@ const config = {
 
   // Between 0 and 100
   // 100 is obnoxiously loud and will f*** your ears
-  defaultVolume: 20,
+  defaultVolume: 10,
 
   // The default repeat mode
   // 0 - Off | Don't repeat

@@ -4,7 +4,6 @@ const { requireSessionConditions } = require('../../modules/music');
 
 module.exports = new ChatInputCommand({
   global: true,
-  permLevel: 'User',
   data: { description: 'Replay the current track' },
   run: async (client, interaction) => {
     const { emojis } = client.container;

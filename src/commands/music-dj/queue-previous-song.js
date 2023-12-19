@@ -5,7 +5,6 @@ const { ApplicationCommandOptionType } = require('discord.js');
 
 module.exports = new ChatInputCommand({
   global: true,
-  permLevel: 'User',
   data: {
     description: 'Add the previously played song to the queue, by default - adds the song to the front of the queue',
     options: [

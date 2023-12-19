@@ -8,6 +8,7 @@ const {
 
 module.exports = new ChatInputCommand({
   global: true,
+  permLevel: 'User',
   data: {
     description: 'Configure specific repeat-type, or disable repeat altogether',
     options: [

@@ -8,7 +8,6 @@ const SECOND_POSITION_OPTION_ID = 'second-position';
 
 module.exports = new ChatInputCommand({
   global: true,
-  permLevel: 'User',
   data: {
     description: 'Swap songs that are current in /queue around by position',
     options: [

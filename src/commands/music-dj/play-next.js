@@ -5,6 +5,7 @@ const { useMainPlayer, useQueue } = require('discord-player');
 
 module.exports = new ChatInputCommand({
   global: true,
+  permLevel: 'User',
   data: {
     description: 'Same as /play, but adds it to the front of the queue',
     options: [

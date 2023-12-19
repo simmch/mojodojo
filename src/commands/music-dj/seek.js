@@ -6,6 +6,7 @@ const { MS_IN_ONE_SECOND } = require('../../constants');
 
 module.exports = new ChatInputCommand({
   global: true,
+  permLevel: 'User',
   data: {
     description: 'Jump to a specific time in the current song',
     options: [
